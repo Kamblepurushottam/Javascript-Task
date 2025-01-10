@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+  </head>
+
+  <body>
+    <section>
+        <div>
+        <h1 class="head">Calculator</h1>
+      <div class="mainBox">
+        <div class="screen">
+          <input type="text" readonly placeholder="00" id="screen" />
+        </div>
+        <div class="btnBox">
+          <ul>
+            <li><button id="ac" class="splBtn">AC</button></li>
+            <li><button id="del" class="splBtn">DEL</button></li>
+            <li><button class="calValue splBtn">%</button></li>
+            <li><button class="calValue splBtn">/</button></li>
+          </ul>
+          <ul>
+            <li><button class="calValue">7</button></li>
+            <li><button class="calValue">8</button></li>
+            <li><button class="calValue">9</button></li>
+            <li><button class="calValue splBtn">*</button></li>
+          </ul>
+          <ul>
+            <li><button class="calValue">4</button></li>
+            <li><button class="calValue">5</button></li>
+            <li><button class="calValue">6</button></li>
+            <li><button class="calValue splBtn">-</button></li>
+          </ul>
+          <ul>
+            <li><button class="calValue">1</button></li>
+            <li><button class="calValue">2</button></li>
+            <li><button class="calValue">3</button></li>
+            <li><button class="calValue splBtn">+</button></li>
+          </ul>
+          <ul>
+            <li><button class="calValue">0</button></li>
+            <li><button class="calValue">00</button></li>
+            <li><button class="calValue">.</button></li>
+            <li><button id="totalBtn" class="splBtn">=</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <script src="script.js"></script>
+
+  </body>
+</html>

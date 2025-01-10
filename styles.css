@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", sans-serif;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+    height: 570px;
+    align-items: center;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+
+li {
+    margin: 10px;
+}
+
+
+input {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    outline: none;
+}
+
+
+button {
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 15px;
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(197, 194, 194);
+}
+
+.screen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.mainBox {
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.splBtn {
+    color: red;
+}
+
+.head{
+    text-align: center;
+    margin-bottom: 20px;
+}
